@@ -1,0 +1,8 @@
+name = net
+desc = loopback networking
+exec = /bin/sleep
+args = 300
+pidfile = /run/afi/net.pid
+depends = syslog
+runlevels = 2345
+timeout = 5

@@ -1,0 +1,8 @@
+name = syslog
+desc = system log daemon
+exec = /bin/sleep
+args = 300
+pidfile = /run/afi/syslog.pid
+runlevels = 2345
+respawn = yes
+timeout = 5

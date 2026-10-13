@@ -1,0 +1,10 @@
+name = cron
+desc = task scheduler
+exec = /bin/sleep
+args = 300
+pidfile = /run/afi/cron.pid
+depends = syslog, net
+runlevels = 2345
+respawn = yes
+timeout = 5
+reload_sig = HUP
